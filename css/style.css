@@ -32,12 +32,19 @@ nav ul li a{
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
+
+}
+.fotoTopBar img{
+   width: 37px;
+   height: 37px;
+   border-radius: 100%;
 }
 main{
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }
 main .banner img {
     max-width: 1919px;
@@ -60,6 +67,11 @@ main .banner img {
     flex-direction: row;
     gap: 34px;
  }
+ .fotoDestaque img{
+   width: 149px;
+   height: 149px;
+   border-radius: 100% ;
+ }
  .redesSocias{
     display: flex;
     flex-direction: row;
@@ -70,6 +82,11 @@ main .banner img {
     flex-direction: column;
     justify-content: start;
     align-items: center;
+ }
+ .redesSocias a img{
+   width: 30px;
+   height: 30px;
+   border-radius: 100%;
  }
  .colRight{
     display: grid;
@@ -233,6 +250,15 @@ main .banner img {
     font: normal normal normal 19px/32px Segoe UI;
     letter-spacing: 0px;
     color: #fff;
+}
+.redesSocias-footer a img{
+   width: 35px;
+   height: 35px;
+   border-radius: 100%;
+}
+.redesSocias-footer{
+   display: flex;
+   gap: 20px;
 }
 .footerContent{
     display: flex;
